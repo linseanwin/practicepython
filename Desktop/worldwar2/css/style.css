@@ -1,0 +1,129 @@
+*{
+	box-sizing: border-box;
+	font-family:微軟正黑體;
+	font-size: 15px;
+}
+body{
+	background-image: url("https://www.1zoom.me/big2/64/232791-Sepik.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+li{
+	margin-left:18%;
+	border:1px black groove;
+	width:50%;
+	height:45px;
+	text-align:center;
+	padding-top:3px;
+	border-radius:10px;
+	font-size:25px;
+	border-style:outset;
+	margin-bottom:10px;
+	list-style-type:none;
+	display:block;
+	overflow:hidden;
+}
+a{ 
+	text-decoration-line: none;
+	font-size:20px;
+	font-family:微軟正黑體;
+	font-weight:bold;
+	background: -webkit-linear-gradient(left,red,orange,green,blue,purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h1{
+	font-size:33px;
+	color:red;
+	font-family:微軟正黑體;
+	margin-left: 38%;
+	display: block;
+}
+p{
+	margin-left:15%;
+	margin-bottom:10px;
+	font-size:20px;
+	color:black;
+}
+.header{
+	width:100%;
+	height:90px;
+	text-align:center;
+	background-color:transparent;
+	border:1px transparent solid;
+	padding-top:20px;
+
+}
+.title{
+	font-size:50px;
+	background: -webkit-linear-gradient(left,#FF7400,yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	padding-top:50px;
+	font-family:微軟正黑體;
+	font-weight: bold;
+	font-style: italic;
+}
+.content{
+	width:100%;
+	padding-top:20px;
+}
+.left-content{
+	float:left;
+	width:25%;
+	padding-left:20px;
+}
+.right-content{
+	float:right;
+	width:75%;
+
+}
+.gallery img{
+	width:90%;
+	height:1500px;
+}
+ul.link1{
+    list-style-position:inside;
+}
+.I-cont{
+	width: 100%;
+}
+.I-cont-F{
+	width: 100%;
+	float: left;
+}
+.I-cont-F span{
+	display: block;
+	color: black;
+	font-size: 30px;
+	margin-bottom: 15px;
+	margin-right: 5%;
+}
+.I-cont-L{
+	width: 40%;
+	float: left;
+}
+.I-cont-R{
+	float: right;
+	width: 60%;
+	padding-left: 80px;
+}
+.I-cont img{
+	width: 95%;
+	height: 200px;
+	margin-bottom: 20px;
+}
+.I-cont-R span{
+	display: block;
+	margin-left: 5%;
+	margin-right: 5%;
+	color: black;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+.I-cont-L span{
+	display: block;
+	font-size: 30px;
+	color:black;
+	font-family: 微軟正黑體;
+}
